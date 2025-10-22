@@ -73,7 +73,7 @@ Berikut adalah langkah-langkah untuk menjalankan proyek ini di komputer lokal An
 
 ## 🔑 Cara Menggunakan
 
-Untuk login ke aplikasi, gunakan kredensial default yang telah ditentukan di dalam `app/Http/Controllers/Auth/LoginController.php`:
+Untuk login ke aplikasi, gunakan kredensial default yang telah ditentukan di dalam `app/Http/Controllers/AuthController.php`:
 
-* **Username:** `admin`
-* **Password:** `password123`
+* **Username:** `tunggul`
+* **Password:** `tung123`
