@@ -7,9 +7,9 @@
         Tempat Mengelola Menu di dalam Chocoffey
     @endsection('title-section')
      @section('content-section')
-    <div class="px-20 mt-10 flex flex-col items-end w-300 ml-60">
-        <div class="border-2 border-secondary rounded-xl p-10">
-            <table class="w-300 border-collapse border border-darkblue">
+    <div class="px-5 md:px-20 mt-10 flex flex-col items-center lg:items-end w-auto lg:w-300 lg:ml-60">
+        <div class="border-2 border-secondary rounded-xl p-5 lg:p-10 flex justify-center">
+            <table class="w-full lg:w-300 border-collapse border border-darkblue">
                 <thead class="bg-secondary text-white">
                     <tr>
                         <th class="p-3 text-left border border-darkblue">ID</th>
@@ -37,16 +37,16 @@
             </table>
         </div>
 
-        <div popover id="modal-tambah-menu" class="m-auto w-150 h-100 rounded-xl backdrop-blur-lg p-5 bg-primary border-secondary border-2">
+        <div popover id="modal-tambah-menu" class="m-auto w-70 md:w-150 md:h-100 rounded-xl backdrop-blur-lg p-5 bg-primary border-secondary border-2">
             <h3 class="font-poppins font-bold text-center">TAMBAH MENU</h3>
             <div class="h-1 bg-secondary my-2"></div>
             <form action="/kelolamenu" method="POST">
                 @csrf
                 <div class="flex flex-col gap-2 mt-2">
-                    <x-input name="menu" label="Menu" class="w-140">
+                    <x-input name="menu" label="Menu" class="w-60 md:w-140">
 
                     </x-input>
-                    <x-input name="harga" label="Harga" class="w-140">
+                    <x-input name="harga" label="Harga" class="w-60 md:w-140">
 
                     </x-input>
                     <div class="h-1 bg-secondary my-2"></div>

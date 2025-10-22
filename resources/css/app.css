@@ -36,7 +36,7 @@
 
 @layer base {
     h1 {
-        @apply text-[35px] md:text-[40px] lg:text-[60px] font-header text-darkblue tracking-[15];
+        @apply text-[27px] md:text-[35px] lg:text-[45px] font-header text-darkblue tracking-[15];
     }
     h2 {
         @apply text-[25px] md:text-[30px] lg:text-[36px] font-header text-darkblue tracking-[5];
@@ -49,6 +49,9 @@
     }
     button {
         @apply cursor-pointer hover:scale-105 hover:opacity-80;
+    }
+    a {
+        @apply text-[13px] xl:text-[17px] font-poppins text-white tracking-[3px];
     }
     .hidden-tab {
         @apply hidden;

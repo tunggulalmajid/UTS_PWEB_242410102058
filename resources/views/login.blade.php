@@ -27,16 +27,15 @@
             <form action="/login" method="POST" class="flex flex-col gap-5 border-secondary border-2 rounded-xl px-5 py-8 mb-10">
                 @csrf
 
-                <x-input class="w-100" id="username" label="USERNAME" name="username">
+                <x-input class="w-65 md:w-100" id="username" label="USERNAME" name="username" >
                 </x-input>
 
-                <x-input class="w-100" id="password" label="PASSWORD" name="password" type="password">
+                <x-input class="w-65 md:w-100" id="password" label="PASSWORD" name="password" type="password">
                 </x-input>
-                <x-btn title="LOGIN" class="h-10 w-100">
+                <x-btn title="LOGIN" class="h-10 w-65 md:w-100">
                 </x-btn>
             </form>
         </div>
-
     </div>
     @endsection
 </div>

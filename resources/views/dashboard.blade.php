@@ -15,8 +15,9 @@
         Selamat Datang, {{$username}}
     @endsection('title-section')
     @section('content-section')
-    <div class="px-20 mt-10">
-        <div class="border-2 border-secondary rounded-xl p-10">
+    <div class="px-5 md:px-20 mt-10">
+        <div class="border-2 border-secondary rounded-xl p-3 lg:p-10">
+            <h3 class="font-poppins font-bold">Daftar Menu</h3>
             <table class="w-full border-collapse border border-darkblue">
                 <thead class="bg-secondary text-white">
                     <tr>
@@ -46,9 +47,11 @@
         </div>
     </div>
 
-    <div class="px-20 mt-10 pb-10">
-        <div class="border-2 border-secondary rounded-xl p-10">
-            <table class="w-full border-collapse border border-darkblue">
+    <div class=" px-5 md:px-20 mt-10 pb-10">
+        <div class="border-2 border-secondary rounded-xl p-3 lg:p-10">
+            <h3 class="font-poppins font-bold">Order</h3>
+            <div class="overflow-x-scroll">
+<table class="w-full border-collapse border border-darkblue">
                 <thead class="bg-secondary text-white">
                     <tr>
                         <th class="p-3 text-left border border-darkblue">ID</th>
@@ -79,6 +82,8 @@
                     @endforelse
                 </tbody>
             </table>
+            </div>
+            
         </div>
     </div>
     @endsection

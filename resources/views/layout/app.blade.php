@@ -7,7 +7,7 @@
 </head>
 <body class="bg-primary">
     @include('components.navbarfull')
-    <div class="px-20">
+    <div class="md:px-20 text-center lg:text-start">
         <h2 class="font-poppins font-extrabold">@yield('title-section')</h2>
         <P>@yield('sub-title-section')</P>
     </div>
