@@ -7,8 +7,8 @@
         Lihat Data Dirimu
     @endsection('title-section')
     @section('content-section')
-    <div class="flex flex-col items-center md:items-end w-auto md:w-200 md:ml-20 px-5">
-         <div class="border-3 border-secondary mt-10 px-5 md:px-15 py-10 w-auto md:w-200 rounded-xl">
+    <div class="flex flex-col items-center lg:items-end w-auto lg:w-200 lg:ml-20 px-5">
+         <div class="border-3 border-secondary mt-10 px-5 md:px-15 py-10 w-auto lg:w-200 rounded-xl">
             <p>
                 Username : {{$username}}
             </p>

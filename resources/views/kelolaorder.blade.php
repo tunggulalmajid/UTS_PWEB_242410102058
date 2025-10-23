@@ -8,9 +8,9 @@
     @endsection('title-section')
 
     @section('content-section')
-    <div class=" px-5 md:px-20 mt-10 flex flex-col items-center lg:items-end lg:w-300 lg:ml-60">
+    <div class=" px-5 md:px-20 mt-10 flex flex-col items-center xl:items-end xl:w-300 xl:ml-60">
         <div class="border-2 border-secondary rounded-xl p-5 md:p-10 overflow-x-scroll w-80 md:w-auto">
-            <table class="w-full lg:w-300 border-collapse border border-darkblue">
+            <table class="w-full xl:w-300 border-collapse border border-darkblue">
                 <thead class="bg-secondary text-white">
                     <tr>
                         <th class="p-3 text-left border border-darkblue">ID</th>
